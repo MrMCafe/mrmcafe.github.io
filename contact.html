@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Moussetache Café</title>
+  <meta name="description" content="Get in touch with Moussetache Café – for questions, catering, or franchise opportunities. Based in Prescott, AZ." />
+  <meta name="keywords" content="Moussetache contact, Prescott café info, franchise inquiry, bubble tea customer service" />
+  <meta name="author" content="Moussetache Café" />
+  <meta property="og:title" content="Contact | Moussetache Café" />
+  <meta property="og:description" content="Send us a message about orders, feedback, or starting your own Moussetache Café franchise." />
+  <meta property="og:url" content="https://mrmcafe.github.io/contact.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://mrmcafe.github.io/images/hero.jpg" />
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <p>Have a question, feedback, or franchise interest? We'd love to hear from you!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="shop.html">Shop</a>
+    <a href="franchise.html">Franchise</a>
+  </nav>
+
+  <section>
+    <form action="https://formspree.io/f/mkgbzoea" method="POST" onsubmit="document.getElementById('form-message').style.display = 'block';">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-message" style="display:none; color: green; margin-top: 1em; font-weight: bold;">Thank you! Your message has been sent successfully.</p>
+  </section>
+
+  <footer>
+    <p><strong>Visit Us:</strong> Prescott Gateway Mall, AZ</p>
+    <p><strong>Hours:</strong> Mon–Sun, 11 AM – 7 PM</p>
+    <p><a href="mailto:moussetachecafe@gmail.com">moussetachecafe@gmail.com</a></p>
+    <p><a href="https://www.instagram.com/moussetache_cafe" target="_blank">Follow us on Instagram</a></p>
+  </footer>
+</body>
+</html>
